@@ -24,7 +24,7 @@ using aula06.fiap.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c653acff027e6414c98f6a42690fb5c1690ba7f0", @"/Views/Sorvete/Cadastrar.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a3a85cc1f4878e497a9af4abab713e4c8eca4101", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d0cc5692fd6e9ee83751465eeb099b27db9e8b79", @"/Views/_ViewImports.cshtml")]
     public class Views_Sorvete_Cadastrar : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Sorvete>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("form-control"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
