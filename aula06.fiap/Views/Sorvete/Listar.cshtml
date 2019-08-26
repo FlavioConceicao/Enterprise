@@ -1,0 +1,31 @@
+﻿@model IList<Sorvete>
+@{
+    ViewData["Title"] = "Listar";
+}
+
+<h1>Listar</h1>
+
+@if(TempData["msg"] != null)
+{
+    <div class="alert alert-success">@TempData["msg"]</div>
+}
+
+<alerta texto="@TempData["msg"]"></alerta>
+
+@foreach (var item in Model)
+{
+    <table class="table">
+        <tr>
+            <th>Nome</th>
+            <th>Data Vencimento</th>
+            <th>Tipo</th>
+            <th>Vegano</th>
+        </tr>
+        <tr>
+            <td>@item.Nome</td>
+            <td>@item.DataVencimento.ToShortDateString()</td>
+            <td>@item.TipoSorvete</td>
+            <td>@item.Vegano</td>
+        </tr>
+    </table>
+}
